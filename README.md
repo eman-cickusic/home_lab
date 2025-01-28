@@ -14,6 +14,9 @@
    - Set "Promiscuous Mode:" to "Deny"
    - Verify "Cable Connected" is checked
 
+![Screenshot 2025-01-28 181603](https://github.com/user-attachments/assets/0e1cf8ae-536e-4d05-aa99-efa68d644577)
+
+
 2. **Windows 10 IP Configuration**:
    - Open Network Settings → IPv4 Properties
    - Select "Use the following IP address:"
@@ -22,6 +25,9 @@
    - Leave Default gateway empty
    - Select "Use the following DNS server addresses:"
    - Leave DNS server fields empty
+  
+![Picture1](https://github.com/user-attachments/assets/f2b2625c-6935-4df3-9c36-2525e0f2d810)
+
 
 3. **Kali Linux Network Setup**:
    - Open Network Settings → Wired connection
@@ -33,6 +39,9 @@
      - Leave Gateway empty
    - Leave DNS servers empty
 
+![Picture3](https://github.com/user-attachments/assets/38c30c69-72ee-40e2-8e04-4b19af8bf76c)
+
+
 ### Verify Network Configuration
 
 1. **Windows 10 Verification**:
@@ -42,6 +51,9 @@ ipconfig
 Verify output shows:
 - IPv4 Address: 192.168.20.10
 - Subnet Mask: 255.255.255.0
+
+![Picture2](https://github.com/user-attachments/assets/d6d1f518-a34c-402e-a332-6572dc5c65d3)
+
 
 2. **Kali Linux Verification**:
 ```bash
@@ -56,8 +68,8 @@ Expected output should show successful ping replies with(it may vary based on my
 - 4 packets received
 - 0% packet loss
 
-# Security Testing Lab Documentation
-> ⚠️ **Warning**: This lab environment is for educational and research purposes only. All testing should be performed in an isolated virtual environment.
+![Picture4](https://github.com/user-attachments/assets/bb03f5fa-9017-4325-90a1-1dd7b973b9f8)
+
 
 ## Environment Setup
 
